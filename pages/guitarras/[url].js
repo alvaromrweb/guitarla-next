@@ -17,7 +17,7 @@ const Producto = ({guitarra, agregarCarrito}) => {
     }
 
     const guitarraSeleccionada = {
-      id: guitarra.id,
+      id: guitarra._id,
       imagen: guitarra.imagen.url,
       nombre: guitarra.nombre,
       precio: guitarra.precio,
